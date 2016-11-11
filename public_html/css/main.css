@@ -1,0 +1,130 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+body{
+  
+    background: #333333;
+}
+
+#toSetCounter{
+    background-color: #333333;
+    color: white;
+    border-color: #73B1B7;
+}
+
+
+.tiles{
+    border: 1px solid white;
+    background-color: #73B1B7;
+    width: 40px;
+    height:40px;
+    float:left;
+    
+}
+
+h1{
+    margin-top: -20px;
+    padding:0px  100px;
+    color: whitesmoke
+}
+
+        
+        
+.board {
+        position: fixed;
+	 height: 340px;
+        width: 300px;
+        margin:2%;
+	background: rgba(0,0,0,0);
+
+        margin-top: 20px;
+	font-size: 0;
+}
+
+
+
+.overlay{
+    margin-left: 60px;
+    margin-top:200px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    z-index: 300000;
+}
+
+.counter{
+    margin-left:40px;
+}
+
+
+.lableDraws{
+    color: white;
+}
+
+
+#GameOver, #Congratulations{
+    margin-top: 200px;
+}
+
+
+
+
+    
+  
+    
+
+    
+    
+    .Player{
+        padding-left: -40px;
+        width: 100%;
+    }
+  @media screen and (max-width:340px) { 
+      body{
+           margin: 2% auto;
+          
+      }
+      
+        #GameoverType{
+          margin-left: 0px;
+      }
+      #CongratulationsType{
+        margin-left: 0px;
+      }
+    }
+    
+     @media screen and (min-width: 341px) and (max-width:380px) { 
+      body{
+           margin: 8% 5%;
+      }
+    }
+
+     @media screen and (min-width: 381px) and (max-width:470px) { 
+      body{
+           margin: 12% 8%;
+      }
+    }
+    
+    @media screen and (min-width: 471px) and (max-width:800px) { 
+      body{
+           margin: 25% 25%;
+      }
+    }
+    
+    @media screen and (min-width: 801px) and (max-width:1024px) { 
+      body{
+           margin: 1% 25%;
+      }
+    }
+
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Schiffe Versenken</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        
+        
+        
+        <style>
+            body {
+                padding-top: 30px;
+                padding-bottom: 20px;
+            }
+        </style>
+        
+        
+        
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <script src="js/vendor/jquery-1.11.2.js"></script>        
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    
+
+    <div class="container" id="Spiel">
+        <!--PLAYER 1 SCHIFFE SETZEN-->
+      
+        <div id="Player1Setzen">
+            <div class="row">
+                <div class=" col-lg-12 col-sm-12">
+                  <h1 class="Player">Setzen</h1> 
+                </div>
+            </div>
+            <div class="row"> 
+                <div class=" col-lg-offset-3 col-lg-6 col-lg-offset-3  col-xs-12 counter">
+                    <label class="lableDraws">Draws:</label> <input  id="toSetCounter">  <!--wenn möglich mit Label und nicht in einem input feld!-->
+                </div>
+            </div>  
+            
+            <div class="row"> 
+               <div class=" col-lg-offset-3 col-lg-6 col-lg-offset-3 col-xs-12">
+                     <div class="board">
+                     <!--hier gibt es eigentlich die Divs - werden aber im JS erstellt--> 
+                     </div> 
+               </div>
+            </div>
+            
+        </div>
+       
+        <!--Overlay Text "Tap to play!" zum ein und ausblenden!-->
+        <div class=" col-lg-offset-3 col-lg-6 col-lg-offset-3 col-xs-12">
+            <div class="overlay" id="TapToPlay"><h2>Tab to play!</h2></div>
+        </div>
+        
+        
+        
+        <!--PLAYER 2 SCHIFFE SETZEN-->
+        <div id="Player2Setzen">
+          <div class="row">  
+            <div class=" col-lg-offset-3 col-lg-6 col-lg-offset-3 col-xs-12">
+                 <h1 class="Player">Raten</h1>
+            </div>
+          </div>
+          <div class="row"> 
+            <div class=" col-lg-offset-3 col-lg-6 col-lg-offset-3 col-xs-12">
+               <!-- <label>Tries:</label> <input class="counter" id="tryCounter"> -->  <!--wenn möglich mit Label und nicht in einem input feld!-->
+            </div>
+         </div>  
+            
+          <div class="row">  
+            <div class=" col-lg-offset-3 col-lg-6 col-lg-offset-3 col-xs-12">
+                <div class="board">
+                <!--hier gibt es eigentlich die Divs - werden aber im JS erstellt--> 
+                 </div> 
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-offset-3 col-lg-6 col-lg-offset-3 col-xs-12">
+            <div class="overlay" id="Start"><h2>START!</h2></div>
+        </div>
+
+   
+
+     <!--GameOver-->
+        <div id="GameOver">
+          <div class="row">  
+            <div >
+                 <h1 id="GameoverType">GAME OVER!</h1>
+            </div>
+          </div>
+         
+        </div>
+        
+       <!--Congratulations-->
+        <div id="Congratulations">
+          <div class="row">  
+            <div   >
+                <h1 id="CongratulationsType">Super!! </h1>
+            </div>
+          </div>
+         
+        </div>
+     
+     
+     
+     </div>   
+    </body>
+</html>
