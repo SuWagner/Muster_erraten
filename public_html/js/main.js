@@ -14,7 +14,7 @@ $(document).ready(function() {
     }
     changeView("#Player1Setzen");
     $("#Start").hide();
-    //alert(isSet);
+   
   
    
    // aus dem Speicher holen und schauen ob etwas im Array ist
@@ -24,8 +24,7 @@ $(document).ready(function() {
                     isSet = JSON.parse(isSetChanged);
                     }
     
-   // alert(isSet);
-    
+   
     
     //// erstellt ein Grid von 11 x 7 divs für mein Board --> jedes Tile hat eine ID von links oben bis rechts unten aufsteigend tile+i
    
