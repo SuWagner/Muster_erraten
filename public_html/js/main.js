@@ -1,4 +1,4 @@
-
+//Die Views
 var views = ["#Player1Setzen","#Player2Setzen","#GameOver", "#Congratulations"];
  
 
